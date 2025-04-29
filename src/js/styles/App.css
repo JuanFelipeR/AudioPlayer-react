@@ -1,0 +1,51 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  
+.custom-list {
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+  
+.list-group-item {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+  
+.list-group-item:hover {
+    background-color: #000000;
+    box-shadow: 0 0 30px #20f104;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+  
+.list-group-item.active {
+    background-color: #20f104;
+    color: #121212;
+    font-weight: bold;
+    box-shadow: 0 0 50px #20f104;
+    border-radius: 10px;
+}
+  
+.btn-primary {
+    background-color: #20f104;
+    border: none;
+    color: #121212;
+    transition: all 0.3s ease;
+}
+  
+.btn-primary:hover {
+    background-color: #20f104;
+    box-shadow: 0 0 50px #20f104;
+    
+}
